@@ -8,7 +8,7 @@ def speak(text):
     # url = "https://api.llama.ai/v1/audio/speech"  # Replace with the actual Llama API endpoint
     url = "https://api.llama-api.com"  # Replace with the actual Llama API endpoint
     headers = {
-        "Authorization": "LA-851ad79db0f548caae3c42e62ca6ad409217d05524b24da0b5945121317fa463",  # Replace with your actual API key
+        "Authorization": "<api>",  # Replace with your actual API key
         "Content-Type": "application/json"
     }
     data = {
